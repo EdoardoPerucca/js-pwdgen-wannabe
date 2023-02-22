@@ -5,17 +5,17 @@ poi chiedi il suo colore preferito
 Infine scrivi sulla pagina la concatenazione delle variabili + un numero a caso scelto da voi
 */
 
-const nome = "Edoardo";
+let userName;
 
-prompt("Qual'è il tuo nome")
+userName = prompt("Qual'è il tuo nome?")
 
-const cognome = "Perucca";
+let surName;
 
-prompt("Qual'è il tuo cognome")
+surName = prompt("Qual'è il tuo cognome?")
 
-const colorePreferito = "blu";
+let favoriteColor;
 
-prompt("Qual'è il tuo colore preferito?")
+favoriteColor = prompt("Qual'è il tuo colore preferito?")
 
-document.writeln(nome + cognome + colorePreferito + 1)
+document.writeln(userName + surName + favoriteColor + 1)
 
